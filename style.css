@@ -210,8 +210,8 @@ footer p {
 
 @media(max-width: 450px) {
   body {
-    font-size: 75%;
-  }
+    font-size: 74%;
+  }g
   header {
     grid-template-columns: 210px 1fr;
   }
