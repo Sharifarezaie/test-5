@@ -9,7 +9,7 @@ body {
 header {
   position: fixed;
   width: 100%;
-  background-color: hsl(44, 8%, 28%);
+  background-color: hsl(43, 13%, 32%);
   display: grid;
   grid-template-columns: 300px 1fr;
   z-index: 1;
@@ -106,7 +106,7 @@ main {
   flex-direction: column;
   align-items: center;
   border-style: groove;
-  border-color: lightgray;
+  border-color: rgb(231, 202, 202);
   border-width: 1px;
   padding-bottom: 10px;
 }
@@ -126,7 +126,7 @@ main {
 }
 
 footer {
-  background-color: hsl(45, 7%, 35%);
+  background-color: hsl(45, 74%, 57%);
   margin-top: 50px;
   display: flex;
   flex-direction: column;
