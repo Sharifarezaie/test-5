@@ -30,13 +30,11 @@ main {
 
 #header-img {
   grid-column: 1;
-  width: 100%;
   align-self: center;
-}
-#header-img{
   height:100px;
   width:200px;
 }
+
 #nav-bar {
   grid-column: 2;
   align-self: center;
