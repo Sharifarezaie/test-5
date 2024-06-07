@@ -161,24 +161,26 @@ footer p {
 
 @keyframes background-color {
       100% {
-         background-color: hsl(45, 70%, 65%);
+         background-color: hsl(45,70%,65%);
       }
 }
 
-@media(max-width: 590px) {
+@media  (max-width:590px) {
   body {
-    font-size: 85%;
+    font-size:85%;
   }
+
   header {
     grid-template-columns: 255px 1fr;
   }
   main {
-    top: 55px;
+    top:55px;
   }
  
   #nav-bar {
     flex-direction: column;
   }
+
   .nav-link {
     margin: 2px;
   }
@@ -189,8 +191,9 @@ footer p {
     align-items: center;
     text-align: center;
   }
+
   .feature-img {
-    display: none;
+    display:none;
   }
   
   #products {
@@ -198,16 +201,17 @@ footer p {
     flex-direction: column;
     margin: auto;
   }
-  .product-section { 
+  .product-section{ 
     margin-top: 10px;
   }
   
   footer {
     margin-top: 65px; 
   }
+  
 }
 
-@media(max-width: 450px) {
+@media  (max-width: 450px) {
   body {
     font-size: 74%;
   }
