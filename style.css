@@ -149,7 +149,7 @@ footer p {
   background-color: hsl(45, 50%, 80%);
   font-weight: bold;
   border-radius: 6px;
-  height: 20px; 
+  height: 20px;
 }
 
 .btn:hover {
@@ -160,22 +160,23 @@ footer p {
 }
 
 @keyframes background-color {
-      100% {
-         background-color: hsl(45,70%,65%);
-      }
+  100% {
+    background-color: hsl(45,70%,65%);
+  }
 }
 
-@media  (max-width:590px) {
+@media (max-width: 590px) {
   body {
-    font-size:85%;
+    font-size: 85%;
   }
 
   header {
     grid-template-columns: 255px 1fr;
   }
+
   main {
-    top:55px;
-  }
+    top: 55px;
+  } 
  
   #nav-bar {
     flex-direction: column;
@@ -184,7 +185,7 @@ footer p {
   .nav-link {
     margin: 2px;
   }
-  
+   
   .feature-section {
     display: flex;
     flex-direction: column;
@@ -193,22 +194,22 @@ footer p {
   }
 
   .feature-img {
-    display:none;
-  }
-  
+    display: none;
+  } 
+
   #products {
     display: flex;
     flex-direction: column;
     margin: auto;
   }
-  .product-section{ 
+
+  .product-section { 
     margin-top: 10px;
   }
   
   footer {
     margin-top: 65px; 
-  }
-  
+  } 
 }
 
 @media  (max-width: 450px) {
